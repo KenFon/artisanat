@@ -11,7 +11,11 @@ class Profile(models.Model):
         ordering = ['created']
 
 class Job(models.Model):
-    created = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=100, blank=True, default='')
-    description = models.TextField()
-    profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
+    bigDescription = models.TextField()
+    smallDescription = models.CharField(max_length=100, blank=True, default='')
+    descFormation = models.TextField()
+    video = models.CharField(max_length=100, blank=True, default='')
+    created = models.DateTimeField(auto_now_add=True)
+    SimilarJob = models.ManyToManyField("self")
+    profile = models.ManyToManyField(Profile)
