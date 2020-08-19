@@ -1,8 +1,10 @@
-from django.urls import path
-from . import views
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from job import views
 
+router = DefaultRouter()
+router.register('job',views.JobViewSet)
 
 urlpatterns = [
-    path('job/<int:pk>/', views.job),
-    path('jobs/', views.jobs),
+    path('',include(router.urls))
 ]
