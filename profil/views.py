@@ -6,9 +6,11 @@ from rest_framework.parsers import JSONParser
 from core.models import Profile
 from .serializers import ProfileSerializer
 from .forms import ProfileForm
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 @csrf_exempt
+@login_required
 def profiles(request):
     """
     List all profiles, or create a new profile.
