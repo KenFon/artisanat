@@ -7,10 +7,17 @@ from core.models import Profile
 from .serializers import ProfileSerializer
 from .forms import ProfileForm
 from django.contrib.auth.decorators import login_required
+from rest_framework.decorators import authentication_classes
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.decorators import api_view
+from rest_framework.decorators import permission_classes
+from rest_framework.permissions import IsAuthenticated
 # Create your views here.
 
 @csrf_exempt
-@login_required
+@api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def profiles(request):
     """
     List all profiles, or create a new profile.
@@ -33,6 +40,9 @@ def profiles(request):
 
 
 @csrf_exempt
+@api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def profile(request, pk):
     """
     Retrieve, update or delete a profile.

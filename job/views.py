@@ -5,11 +5,21 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from core.models import Job, Profile
 from .serializers import JobSerializer
-
+from .forms import ProfileForm
+from django.contrib.auth.decorators import login_required
+from rest_framework.decorators import authentication_classes
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.decorators import api_view
+from rest_framework.decorators import permission_classes
+from rest_framework.permissions import IsAuthenticated
 # Create your views here.
 
 
+
 @csrf_exempt
+@api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def jobs(request):
     """
     List all profiles, or create a new profile.
@@ -22,6 +32,9 @@ def jobs(request):
 
 
 @csrf_exempt
+@api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def job(request, pk):
     """
     Retrieve, update or delete a job.
