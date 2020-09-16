@@ -38,7 +38,7 @@ def job(request, pk):
     """
     try:
         job = job.objects.get(pk=pk)
-    except job.DoesNotExist:
+    except Job.DoesNotExist:
         return HttpResponse(status=404)
 
     if request.method == 'GET':

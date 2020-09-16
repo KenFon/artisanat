@@ -44,8 +44,7 @@ class TestJobUpdate(TestCase):
     def test_job_update(self): 
         """ Tests job added has been edited."""
         job = Job.objects.last()
-        c = Client()
         data = {'name': "update job", 'bigDescription': "Test Job Index"}
-        response = c.put('/jobs/'+str(job.id)+'/', data)
+        self.client.put("/jobs/"+str(job.id), data)
         job.refresh_from_db()
         self.assertEqual(job.name, data['name'])
