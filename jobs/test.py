@@ -48,3 +48,16 @@ class TestJobUpdate(TestCase):
         self.client.put("/jobs/"+str(job.id)+"/", data)
         job.refresh_from_db()
         self.assertEqual(job.name, "update job")
+
+class TestJobDelete(TestCase):
+    
+    def setUp(self):
+        self.Profile = Profile.objects.create(type="toto", name="test profil", description="Test profil")
+        self.Job = Job.objects.create(name="test Job", bigDescription="Test Job Index")
+        self.Job.profile.add(self.Profile)
+
+    def test_job_delete(self):
+        """Tests that the job deleted no longer exists."""
+        job = Job.objects.last()
+        self.client.delete('/jobs/'+str(job.id)+'/')
+        self.assertFalse(Job.objects.filter(pk=job.id).exists())
