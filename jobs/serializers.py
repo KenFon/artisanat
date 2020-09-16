@@ -6,9 +6,9 @@ from core.models import Job
 class JobSerializer(serializers.Serializer):
 
     name = serializers.CharField(required=False, allow_blank=True, max_length=100)
-    bigDescription = serializers.CharField()
+    bigDescription = serializers.CharField(required=False, allow_blank=True, max_length=100)
     smallDescription = serializers.CharField(required=False, allow_blank=True, max_length=100)
-    descFormation = serializers.CharField()
+    descFormation = serializers.CharField(required=False, allow_blank=True, max_length=100)
     video = serializers.CharField(required=False, allow_blank=True, max_length=100)
     #SimilarJob = serializers(read_only=True, many=True)
     profile = serializers.PrimaryKeyRelatedField(read_only=True, many=True)
@@ -19,7 +19,7 @@ class JobSerializer(serializers.Serializer):
         return Job.objects.create(**validated_data)
 
     def update(self, instance, validated_data):
-        """Update and return an existing Profile instance, given the validated data."""
+        """Update and return an existing Job instance, given the validated data."""
         instance.name = validated_data.get('name', instance.name)
         instance.bigDescription = validated_data.get('bigDescription', instance.bigDescription)
         instance.smallDescription = validated_data.get('smallDescription', instance.smallDescription)

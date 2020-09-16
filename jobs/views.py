@@ -5,6 +5,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from core.models import Job, Profile
 from .serializers import JobSerializer
+from .forms import JobForm
 
 # Create your views here.
 
@@ -19,6 +20,15 @@ def jobs(request):
         serializer = JobSerializer(job, many=True)
         return JsonResponse(serializer.data, safe=False)
 
+    elif request.method == 'POST':
+        form = JobForm(request.POST)
+        if form.is_valid():
+            data = form.cleaned_data
+            serializer = JobSerializer(data=data)
+            if serializer.is_valid():
+                serializer.save()
+                return JsonResponse(serializer.data, status=201)
+            return JsonResponse(serializer.errors, status=400)
 
 
 @csrf_exempt
