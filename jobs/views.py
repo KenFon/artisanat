@@ -37,7 +37,7 @@ def job(request, pk):
     Retrieve, update or delete a job.
     """
     try:
-        job = job.objects.get(pk=pk)
+        job = Job.objects.get(pk=pk)
     except Job.DoesNotExist:
         return HttpResponse(status=404)
 
