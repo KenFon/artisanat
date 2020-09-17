@@ -19,7 +19,6 @@ from rest_framework.permissions import IsAdminUser
 @api_view(['GET'])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
-@permission_classes([IsAdminUser])
 def profiles(request):
     """
     List all profiles, or create a new profile.
@@ -44,7 +43,6 @@ def profiles(request):
 @csrf_exempt
 @api_view(['GET'])
 @authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
 @permission_classes([IsAdminUser])
 def profile(request, pk):
     """

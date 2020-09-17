@@ -35,7 +35,6 @@ def jobs(request):
 @csrf_exempt
 @api_view(['GET'])
 @authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
 @permission_classes([IsAdminUser])
 def job(request, pk):
     """
