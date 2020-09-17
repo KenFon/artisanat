@@ -12,6 +12,7 @@ from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import api_view
 from rest_framework.decorators import permission_classes
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAdminUser
 # Create your views here.
 
 
@@ -35,6 +36,7 @@ def jobs(request):
 @api_view(['GET'])
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
+@permission_classes([IsAdminUser])
 def job(request, pk):
     """
     Retrieve, update or delete a job.
