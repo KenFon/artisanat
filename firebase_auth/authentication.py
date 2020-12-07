@@ -13,20 +13,7 @@ from .exceptions import FirebaseError
 from .exceptions import InvalidAuthToken
 from .exceptions import NoAuthToken
 
-cred = credentials.Certificate(
-    {
-        "type": "service_account",
-        "project_id": "truc",
-        "private_key_id": "truc",
-        "private_key": "truc",
-        "client_email": "truc",
-        "client_id": "truc",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://accounts.google.com/o/oauth2/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "truc",
-    }
-)
+cred = credentials.Certificate("../artisanat-e9fae-firebase-adminsdk-iza4h-2b0eb8a086.json")
 
 default_app = firebase_admin.initialize_app(cred)
 
