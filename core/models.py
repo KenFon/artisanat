@@ -9,3 +9,14 @@ class Profile(models.Model):
 
     class Meta:
         ordering = ['created']
+
+class Job(models.Model):
+    name = models.CharField(max_length=100, blank=True, default='')
+    bigDescription = models.TextField()
+    smallDescription = models.CharField(max_length=100, blank=True, default='')
+    descFormation = models.TextField()
+    video = models.CharField(max_length=100, blank=True, default='')
+    created = models.DateTimeField(auto_now_add=True)
+    SimilarJob = models.ManyToManyField("self")
+    profile = models.ManyToManyField(Profile)
+
