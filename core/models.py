@@ -20,12 +20,3 @@ class Job(models.Model):
     SimilarJob = models.ManyToManyField("self")
     profile = models.ManyToManyField(Profile)
 
-class User(models.Model):
-    name = models.CharField(max_length=50, blank=True, default='')
-    email = models.CharField(max_length=50, blank=False)
-    roles = models.CharField(max_length=50, default= 'admin')
-    location = models.CharField(max_length=50, blank=True)
-    is_active = models.BooleanField(default=True)
-    created_at = models.DateTimeField(auto_now_add=True)
-    class Meta:
-        ordering = ['created_at']

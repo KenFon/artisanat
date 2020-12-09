@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'core',
     'profil',
     'jobs',
+    'firebase_auth',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -72,7 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'metierApi.wsgi.application'
 
-
+AUTH_USER_MODEL = 'firebase_auth.UserCustom'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
@@ -85,7 +86,7 @@ DATABASES = {
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'REST_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
         'firebase_auth.authentication.FirebaseAuthentication',
     ),
 }
