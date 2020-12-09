@@ -56,3 +56,4 @@ def job(request, pk):
     elif request.method == 'DELETE':
         job.delete()
         return HttpResponse(status=204)
+
