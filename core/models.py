@@ -13,7 +13,7 @@ class Profile(models.Model):
 class Job(models.Model):
     name = models.CharField(max_length=100, blank=True, default='')
     bigDescription = models.TextField(null=True)
-    smallDescription = models.CharField(max_length=100, blank=True, default='')
+    smallDescription = models.TextField(blank=True, default='')
     descFormation = models.TextField()
     video = models.CharField(max_length=100, blank=True, null=True, default='')
     created = models.DateTimeField(auto_now_add=True)

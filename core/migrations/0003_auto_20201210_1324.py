@@ -10,21 +10,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.CreateModel(
-            name='User',
-            fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(blank=True, default='', max_length=50)),
-                ('email', models.CharField(max_length=50)),
-                ('roles', models.CharField(default='admin', max_length=50)),
-                ('location', models.CharField(blank=True, max_length=50)),
-                ('is_active', models.BooleanField(default=True)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-            ],
-            options={
-                'ordering': ['created_at'],
-            },
-        ),
         migrations.AlterField(
             model_name='job',
             name='bigDescription',
