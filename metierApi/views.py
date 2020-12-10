@@ -10,7 +10,10 @@ import random
 from django.core.exceptions import ObjectDoesNotExist
 from collections import OrderedDict
 # Create your views here.
-
+def randomize(result):
+    result = list(result)
+    random.shuffle(result)
+    return result
 
 @csrf_exempt
 def result(request):
@@ -57,21 +60,23 @@ def result(request):
         ).filter(
             profile = p3.id
         ).distinct()
-        jobs = jobs + random.shuffle(list(jobs_allr))
+        
+        jobs = jobs + randomize(jobs_allr)
 
     #jobs with profile 1 & 2
     if p2 is not None: 
         jobs_1_2 = jobs_p1.filter(
             profile = p2.id
         ).distinct()
-        jobs = jobs + random.shuffle(list(jobs_1_2))
+
+        jobs = jobs + randomize(jobs_1_2)
 
     #jobs with profile 1 & 3
     if p3 is not None:
         jobs_1_3 = jobs_p1.filter(
             profile = p3.id
         ).distinct()
-        jobs = jobs + random.shuffle(list(jobs_1_3))
+        jobs = jobs + randomize(jobs_1_3)
 
     #jobs with profile 2 & 3
     if p2 is not None and p3 is not None:
@@ -80,7 +85,7 @@ def result(request):
         ).filter(
             profile = p3.id
         ).distinct()
-        jobs = jobs + random.shuffle(list(jobs_2_3))
+        jobs = jobs + randomize(jobs_2_3)
 
     #jobs with one of the 3 profile
     jobs_1r = jobs_p1
@@ -89,7 +94,7 @@ def result(request):
     if p3 is not None:
         jobs_1r = list(jobs_1r) + list(jobs_p3)
     OrderedDict.fromkeys(jobs_1r)
-    jobs = jobs + random.shuffle(list(jobs_1r))
+    jobs = jobs + randomize(jobs_1r)
 
     jobs = OrderedDict.fromkeys(jobs)
     jobs = list(jobs)[:3]
