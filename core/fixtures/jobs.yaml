@@ -1,0 +1,271 @@
+- model: core.job
+  pk: 1
+  fields:
+    name: Graveur d'art
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui conçoit des œuvres picturales qu'elle réalise en plusieurs exemplaires au moyen de plaques de métal, de pierre ou de linoléum, gravées à l'aide d'un burin ou à l'eau-forte. Elle exécute elle-même chaque étape (conception, dessin, gravure, application des couleurs et impression) de la production d'estampes originales ou d'interprétation à partir d'œuvres créées à l'aide d'un autre médium (peinture, aquarelle, gouache, etc.).
+    descFormation: niveau U
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [3, 2, 1]
+    
+- model: core.job
+  pk: 2
+  fields:
+    name: Cordonnier
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui, à l'aide de machines à coudre, de machines à polir et d'autres équipements appropriés, répare ou modifie différents articles tels que des chaussures, des bottes, des ceintures, des valises, des sacs à main et d'autres articles en cuir, en toile ou constitués d'autres matériaux souples. Elle doit d'abord faire une estimation des coûts, puis réparer avec minutie les articles endommagés et leur redonner un aspect neuf (confort, beauté, solidité) afin de répondre aux exigences de sa clientèle. Elle s'occupe également de l'entretien et du réglage des machines qu'elle utilise.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 2, 6]
+
+- model: core.job
+  pk: 3
+  fields:
+    name: Fleuriste
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui, pour son propre compte ou le compte du propriétaire du commerce où elle travaille, conçoit, réalise et vend des fleurs, des plantes et des arrangements de fleurs naturelles, séchées ou artificielles. Elle conçoit des arrangements originaux et esthétiques, conseille les clients si nécessaire et entretient les plantes et les fleurs en magasin.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 2, 5]
+
+
+- model: core.job
+  pk: 4
+  fields:
+    name: Maitre fourreur
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui confectionne, retouche, transforme, répare et rajeunit des vêtements et des accessoires en fourrure naturelle. Elle conçoit les modèles, évalue le coût de la réparation ou de la confection, choisit le patron en effectuant les modifications nécessaires et procède aux différentes étapes du travail (sélection, préparation, coupe, pose ou assemblage des peaux). Elle s'inspire des tendances de la mode et fait preuve de minutie dans son travail afin que les articles de fourrure qu'elle réalise correspondent aux goûts et réponde aux exigences de ses clients.
+    descFormation: Niveau C
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 6, 4]
+
+
+- model: core.job
+  pk: 5
+  fields:
+    name: Esthéticien
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui donne une gamme soins faciaux et corporels dans un but esthétique visant à améliorer l'apparence, le tonus et l'éclat de la peau, à contrôler certains effets cutanés du vieillissement et à traiter divers problèmes corporels mineurs jugés indésirables (cellulite, couperose, poils superflus, etc.). À cette fin, elle est attentive aux désirs et aux inconforts de ses clients, détermine les soins qui sont les mieux appropriés et propose des produits ou des traitements adaptés. Elle effectue également des maquillages personnalisés et conseille les clientes sur les techniques et les produits de maquillage à utiliser pour mettre leur visage en valeur.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [4, 2, 6]
+
+- model: core.job
+  pk: 6
+  fields:
+    name: Peintre en bâtiment
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui applique, sur les surfaces intérieures ou extérieures de bâtiments, diverses substances liquides ou granuleuses (peinture, teinture, résine, vernis, etc.) destinées à les protéger ou à les embellir. Pour ce faire, elle organise son lieu de travail (échafaudages, plates-formes tournantes, etc.) et s'assure de bien préparer les surfaces à recouvrir ainsi que les matières à appliquer, de manière à obtenir le fini recherché. Elle peut également coller, sur des murs intérieurs, divers revêtements tels que du papier peint et du tissu.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 6, 2]
+
+- model: core.job
+  pk: 7
+  fields:
+    name: Boucher
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui, dans une épicerie ou dans une boucherie, coupe les quartiers de viande, en fait des filets, des côtelettes ou des escalopes, prépare et vide la volaille, emballe, pèse et étiquette les morceaux destinés aux présentoirs. Elle peut avoir à donner des renseignements sur les différentes coupes et sur les temps et modes de cuisson. Elle s'occupe également de l'entretien et du nettoyage des outils et des aires de travail. Elle peut aussi vendre directement aux clients et leur offrir des coupes de choix afin de satisfaire les diverses exigences.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 4, 5]
+
+- model: core.job
+  pk: 8
+  fields:
+    name: Taxidermiste
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui empaille des animaux morts, à l'aide des techniques et des procédés de traitement de la peau, de reconstitution de la carcasse et de fixation du plumage ou du pelage, afin de donner aux animaux un air naturel et d'en assurer la conservation pour fins d'exposition ou pour usage scientifique. Dans chaque cas, elle commencer par dépouiller l'animal de sa peau, traite celle-ci, confectionne une carcasse de métal ou constituée d'un autre matériau, fixe de la bourre tout autour et, finalement, remet la peau pour reconstituer l'animal. Elle applique tous les traitements nécessaires pour éviter la détérioration des plumes ou des fourrures et s'efforce de donner aux animaux une posture très naturelle.
+    descFormation: Niveau S
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [2, 3, 1]
+
+- model: core.job
+  pk: 9
+  fields:
+    name: Fromager
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui, de façon artisanale ou en industrie, fabrique, du fromage (cottage, cheddar, brie, etc.) à l'aide d'appareils conçus pour la pasteurisation, la cuisson et la fermentation du lait ou de la crème jusqu'à sa transformation. Elle doit, entre autres, surveiller la température tout au long du processus, ajouter les ferments lactiques et la présure et séparer le caillé du petit lait. Comme elle fait fonctionner des machines et des équipements industriels, elle doit suivre toutes les étapes prescrites et faire preuve de prudence. Elle doit également respecter les normes de qualité en vigueur dans l'industrie, se conformer aux règles gouvernementales et tenir compte des demandes de la clientèle.
+    descFormation: Niveau C
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 6, 2]
+
+- model: core.job
+  pk: 10
+  fields:
+    name: Technicien dentaire
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui conçoit, fabrique et répare des prothèses dentaires fixes (ponts, couronnes), des prothèses dentaires complètes et partielles amovibles, des appareils d'orthodontie, des prothèses sur implants et des appareils spécialisés selon l'ordonnance d'un dentiste, d'un orthodontiste, d'un denturologiste ou de tout autre spécialiste de la médecine dentaire. Elle voit à ce que la prothèse corrige les anomalies fonctionnelles ou améliore l'esthétique de la dentition. Elle conseille les dentistes et denturologistes sur la faisabilité technique d'une prothèse, sur les procédés techniques ainsi que sur les matériaux à utiliser pour offrir une solution avantageuse aux patients.
+    descFormation: Niveau C
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 2, 3]
+
+- model: core.job
+  pk: 11
+  fields:
+    name: Chocolatier
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui fabrique, sur une base plus ou moins artisanale, divers produits de confiserie à base de chocolat (fondants, pastilles, truffes, bonbons, tablettes, objets ou personnages moulés, etc.) et qui les vend dans son propre établissement commercial ou par l'intermédiaire de distributeurs. Elle choisit les recettes, les procédés de fabrication et le design de présentation. Elle s'occupe du fonctionnement, de la gestion et de l'entretien de la fabrique; elle veille à la mise en marché de ses produits et adapte sa production aux exigences de sa clientèle et aux besoins changeants du marché.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 6, 2]
+
+- model: core.job
+  pk: 12
+  fields:
+    name: Coiffeur
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui réalise des coiffures et qui donne des soins capillaires dans le but d'embellir la chevelure et ainsi satisfaire les désirs de sa clientèle. Pour ce faire, elle peut laver, couper, traiter, colorer, friser et coiffer les cheveux de ses clients selon leurs demandes, leur personnalité et les tendances de la mode. Elle accueille les clients avec courtoisie et les conseille adéquatement sur les types de coiffure et de produits qui conviennent à leur style et aux particularités de leurs cheveux. Elle prépare également les factures, suggère et vend des produits capillaires professionnels et perçoit les paiements.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: [5]
+    profile: [4, 3, 6]
+
+- model: core.job
+  pk: 13
+  fields:
+    name: Ébéniste
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui fabrique et répare des meubles et des accessoires en bois ou en panneaux dérivés du bois (tables, armoires, chaises, lits, etc.) à l'aide de divers outils ou machines (scies, toupies, varlopes, rabots, etc.). Elle se charge de toutes les étapes de la fabrication d'un meuble, de l'étude des plans jusqu'à la finition, ou de toutes les étapes de sa réparation. Elle doit respecter les spécifications et dessins fournis afin d'offrir des produits à la fois solides et esthétiques qui sauront satisfaire les exigences de la clientèle.
+    descFormation: Niveau FP/C
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 2, 3]
+
+- model: core.job
+  pk: 14
+  fields:
+    name: Sculpteur
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui crée ou réalise des œuvres figuratives ou abstraites en trois dimensions, en travaillant des matières telles que l'argile, la pierre, le bois, le métal ou le plastique. Elle façonne, à la main ou à l'aide d'outils, des objets aux qualités esthétiques et originales sûres, destinés à embellir ou à transformer l'environnement. Parfois, elle confectionne une maquette ou fait un croquis de la sculpture avant de la réaliser. Elle peut aussi être amenée à réparer ou à restaurer les sculptures d'autres artistes. Sur le plan commercial, elle peut gérer la mise en marché de ses œuvres ou la confier à une agence ou à une galerie d'art.
+    descFormation: Niveau C/U
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [3, 2, 1]
+
+- model: core.job
+  pk: 15
+  fields:
+    name: Boulanger-pâtissier
+    bigDescription: |
+      The standard Lorem Ipsum passage, used since the 1500s
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Section 1.10.32 of de Finibus Bonorum et Malorum, written by Cicero in 45 BC
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      1914 translation by H. Rackham
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+    smallDescription: Personne qui prépare, à la main ou à l'aide d'appareils appropriés, et qui fait cuire différents sortes de pains, des viennoiseries (brioches, croissants), des muffins, des tartes et des gâteaux afin de les vendre en gros ou au détail. Elle s'occupe également de l'emballage et de la mise en marché des produits. Dans le cadre de son travail, elle doit choisir, commander et utiliser des ingrédients frais et de qualité, gérer l'inventaire et veiller à la rotation des produits ainsi qu'à la conservation adéquate des aliments.
+    descFormation: Niveau FP
+    video: NULL
+    created: 2020-12-10
+    SimilarJob: []
+    profile: [1, 2, 3]

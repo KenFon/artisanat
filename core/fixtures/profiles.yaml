@@ -1,0 +1,97 @@
+- model: core.profile
+  pk: 1
+  fields:
+    created: 2020-12-08
+    type: R
+    name: Réaliste
+    description: |
+      Les personnes de type «Réaliste» travaillent de façon
+      ordonnée et systématique. Elles ont un grand souci de la
+      précision et apprécient les tâches concrètes. Le réaliste aime
+      travailler à l’extérieur et en plein air. Ces personnes utilisent
+      des outils ou des instruments avec aisance et aiment les
+      activités qui demandent une habileté manuelle. Elles sont
+      dotées d’une bonne endurance physique et même de
+      capacités athlétiques.
+
+- model: core.profile
+  pk: 2
+  fields:
+    created: 2020-12-08
+    type: I
+    name: Investigateur
+    description: |
+      Les personnes de type «Investigateur» recherchent
+      spontanément le pourquoi du comment. Elles sont guidées par
+      un impérieux besoin de comprendre. Elles aiment résoudre des
+      problèmes et utilisent de renseignements spécialisés et de
+      connaissances théoriques pour y arriver. Les «Investigateurs»
+      aiment étudier, apprendre, observer, sont d’une grande curiosité
+      intellectuelle, possèdent un sens critique certain.
+
+
+- model: core.profile
+  pk: 3
+  fields:
+    created: 2020-12-08
+    type: A
+    name: Artistique
+    description: |
+      Les personnes de type «Artiste» sont très axées sur la
+      liberté et l’originalité. Il est très important pour elles de
+      pouvoir exprimer leurs émotions. Ces personnes sont
+      intuitives, possèdent beaucoup d’imagination, ont un esprit
+      très indépendant et non conformiste. Elles n’aiment pas les
+      contextes rigides et routiniers. Les règles et les règlements
+      de toute sorte leur pèsent et entravent leur créativité. Elles
+      ont besoin de beaucoup de souplesse.
+
+- model: core.profile
+  pk: 4
+  fields:
+    created: 2020-12-08
+    type: S
+    name: Social
+    description: |
+      Les personnes de type «Social» apprécient le contact avec les
+      autres. Elles ont un réel talent pour entrer en contact et traiter
+      avec les autres individus. Elles échangent facilement et avec
+      beaucoup de plaisir. Elles ont besoin de nombreux contacts qui
+      peuvent avoir des formes différentes. Ainsi elles aiment
+      informer, enseigner, écouter, conseiller, soigner, etc.
+      En règle générale, elles ont une bonne écoute et aiment aider
+      les autres.
+
+- model: core.profile
+  pk: 5
+  fields:
+    created: 2020-12-08
+    type: E
+    name: Entreprenant
+    description: |
+      Les personnes de type «Entreprenant» sont des personnes
+      enthousiastes, dotées d’une grande capacité de décision et
+      d’action. Ces personnes savent faire preuve d’audace et
+      d’efficacité; elles ont le sens de l'organisation, de la
+      planification et de l'initiative pour mener à bien leurs idées et
+      leurs projets. Ces personnes aiment être reconnues. On peut
+      parler d’une certaine attirance pour le pouvoir et d’un goût
+      pour la prise de risque.
+
+- model: core.profile
+  pk: 6
+  fields:
+    created: 2020-12-08
+    type: C
+    name: Conventionnel
+    description: |
+      Les personnes de type «Conventionnel» sont efficaces
+      dans des activités qui nécessitent de l’exactitude et sont à
+      l’aise dans les tâches routinières. Précises, méthodiques,
+      ces personnes préfèrent la rationalité et le respect des
+      consignes au hasard et à l’improvisation. Elles préfèrent des
+      activités de bureau et de calcul, c'est-à-dire classer, ranger, ordonner,
+      chiffrer, inventorier etc. Habituellement, leur environnement
+      matériel est bien organisé et l’ordre est de mise. Enfin,
+      discrétion et perfectionnisme font partie de leurs autres
+      qualités.
