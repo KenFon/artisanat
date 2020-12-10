@@ -2,3 +2,4 @@ Django>=3.0.8
 djangorestframework>=3.11.0
 djangorestframework-firebase>=0.3.0
 gunicorn
+psycopg2
