@@ -1,0 +1,1 @@
+web: gunicorn metierApi.wsgi --log-file -
