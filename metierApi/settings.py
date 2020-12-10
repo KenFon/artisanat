@@ -25,7 +25,7 @@ SECRET_KEY = 'o6uxm8)l1fw7m^!4p$8jw&&g*#!&4aasr63)kf%l_gb@55li7i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['simplonforcma.herokuapp.com']
+ALLOWED_HOSTS = ['simplonforcma.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -79,8 +79,12 @@ AUTH_USER_MODEL = 'firebase_auth.UserCustom'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd3jbvt0bq9f895',
+        'USER': 'zmmkemnndrrucj',
+        'PASSWORD': 'e8128f59053943af406e5bcc24e7250374757c3b23f8a62b52d04a4ac7236d27',
+        'HOST': 'ec2-52-211-161-21.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
