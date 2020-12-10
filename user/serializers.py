@@ -9,6 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = get_user_model()
-
-        def create(self, validated_data):
-            return FirebaseAuthentication.authenticate
+        
+        def create(self, request):
+            data = request.data
+            return FirebaseAuthentication.authenticate(data.uid)
