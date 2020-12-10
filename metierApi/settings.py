@@ -25,7 +25,7 @@ SECRET_KEY = 'o6uxm8)l1fw7m^!4p$8jw&&g*#!&4aasr63)kf%l_gb@55li7i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://simplonforcma.herokuapp.com/']
+ALLOWED_HOSTS = ['simplonforcma.herokuapp.com']
 
 
 # Application definition
